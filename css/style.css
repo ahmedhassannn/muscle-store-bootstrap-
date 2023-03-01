@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main:#980c1d;
+    --prime:#1a1b19d4;
+}
+/*start nav */
+
+.nav-link{
+    font-size: 20px;
+    color: #a5081a;
+}
+button[type="submit"]{
+    color: var(--main);
+    border: 1px solid var(--main);
+}
+.nav-link:hover,
+.nav-link:focus,
+.active{
+    color: var(--prime) ;
+}
+.form {
+    font-size: 20px;
+}
+/* end nav */
+/* start slid show */
+.carousel-title{
+    position: relative;
+    color:var(--main);
+    
+}
+.carousel-title::after{
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(38, 35, 35);
+    width: 30%;
+    margin: auto;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* end slid show */
+/*start top offers */
+.fa-shopping-cart,
+.fa-share-alt,
+.fa-heart{
+    color: var(--prime);
+    text-decoration: none;
+    margin-top:1em;
+    font-size: 25px;
+}
+.fa-shopping-cart:hover,
+.fa-share-alt:hover,
+.fa-heart:hover{
+    color: var(--main);
+}
+.card{
+    overflow: auto;
+}
+.discount{
+    word-spacing: 10px;
+    color: var(--main);
+}
+.top-offers{
+background-color: #edede9;
+}
+
+/* end top offers */
+/* start flexible image */
+
+.fixedimg{
+    margin-top: 30px;
+    background-image: url("../images/flex-image.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.navbar-toggler{
+    background-color: #980c1d;
+}
+
+/* end flexible image */
+.foooter{
+    margin-top: 20px;
+
+}
+.comment{
+    font-weight:bold ;
+    color: var(--main);
+}
+
+.comment-area{
+    background-color: #edede9 ;
+}
